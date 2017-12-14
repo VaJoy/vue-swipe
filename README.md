@@ -2,7 +2,15 @@
 a lightweight swipe directive for vue.js
 ### NOTICE - this directive has NO realtime feedback, use it in the case of doing sth after swiping. e.g., switch page tab after the (left-to-right/right-to-left)swipe gesture operating
 
-## example
+## Usage
+### 1. import the directive:
+···js
+import vueSwipe from 'src/directives/vue-swipe'
+vueSwipe.use();
+```
+
+### 2. work on the template:
+
 with callback name directly:
 
 ```html
@@ -11,6 +19,7 @@ with callback name directly:
 </div>
 ```
 
+OR
 with options:
 
 ```html
