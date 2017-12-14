@@ -4,14 +4,16 @@ a lightweight swipe directive for vue.js
 
 ## example
 with callback name directly:
-···
+
+```html
 <div class="cards" v-swipe="onSwipe">
     <!--some other DOM -->
 </div>
 ```
 
 with options:
-···
+
+```html
 <div class="cards" v-swipe="{fn:onSwipe, slipMinTime:5000}">
     <!--some other DOM -->
 </div>
