@@ -4,7 +4,7 @@ a lightweight swipe directive for vue.js
 
 ## Usage
 ### 1. import the directive:
-···js
+```js
 import vueSwipe from 'src/directives/vue-swipe'
 vueSwipe.use();
 ```
